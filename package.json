@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.19.2",
+    "bulma": "^0.8.2",
+    "node-sass": "^4.13.1",
+    "rbx": "^2.2.0",
+    "react-router-dom": "^5.1.2"
+  }
+}
