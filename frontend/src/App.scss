@@ -4,6 +4,12 @@
 
 @import "./styles/custom_colors.scss";
 
+// Import Bulma styles
+@import "~bulma/bulma";
+
+// Import rbx style fixes
+@import "~rbx/rbx";
+
 $custom-colors: (
   "custom-green-darker": ($custom-green-darker),
   "custom-green-lighter": ($custom-green-lighter),
@@ -13,8 +19,11 @@ $custom-colors: (
   "custom-orange": ($custom-orange),
 );
 
-// Import Bulma styles
-@import "~bulma/bulma";
-
-// Import rbx style fixes
-@import "~rbx/rbx";
+.dashed_box {
+  font-size: 14px;
+  background: white;
+  font-weight: bold;
+  border: 1px dashed $custom-gray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
